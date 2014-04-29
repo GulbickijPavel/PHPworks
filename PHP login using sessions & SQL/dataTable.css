@@ -1,0 +1,28 @@
+table.data {
+    #font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width:80%;
+    border-collapse:collapse;
+    text-align: center;
+}
+
+table.data td, table.data th {
+    #font-size:1em;
+    border:1px solid #79A8BB;
+    padding:3px 7px 2px 7px;
+}
+
+table.data th {
+    #font-size:1.1em;
+    #text-align:left;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:4px;
+    background-color:#C0DAED;
+    color:#ffffff;
+}
+
+table.data tr.alt td {
+    color:#000000;
+    background-color:#EAF3F9;
+}

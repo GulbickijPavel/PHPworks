@@ -1,0 +1,129 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+      background-color:#F7EAEA;
+}
+
+input[type="text"], input[type="password"] {
+    width: 150px;
+}
+
+div.header, div.footer {
+    padding:0em;
+    margin:0;
+    color:white;
+    background-color:gray;
+    clear:both;
+}
+
+h1.header {
+    padding:0.2em;
+    margin:0;
+}
+
+h5.footer {
+    padding:0;
+    margin:0;
+    text-align: right;
+    margin-right: 5px;
+}
+
+div.container {
+    width:100%;
+    margin:0;
+    border:1px solid gray;
+    line-height:150%;
+}
+
+div.main_menu_left {
+    border-right:1px solid gray;
+    float:left;
+    width:175px;
+    height:500px;
+    margin:0;
+    padding:1em;
+}
+
+div.content {
+    margin-left:0px;
+    padding:0em;
+    white-space: normal;
+    overflow: auto;
+    color: blue;
+}
+
+table.login {
+    margin-left: 30%;
+    margin-right: 70%;
+    text-align: right;
+}
+table.register{
+    
+   margin-left: 70%;
+    margin-right: 30%;
+    text-align: right; 
+}
+
+table.data {
+    margin-left: auto;
+    margin-right: auto;
+    #text-align: right;
+}
+
+.error {
+    font-size: 14px;
+    font-weight:bold;
+    color:red;
+}
+.content{
+   
+   
+}
+
+a:link     {color: brown; text-decoration: none;}   
+a:visited  {color: red; text-decoration: none;}
+a:hover    {color: orange; text-decoration: underline;}
+a:active   {color: red; text-decoration: none;}
+
+a[href^="mailto:"] { 
+  color: blue
+}
+.contract{
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebar {
+	width: 215px;
+	height: 700px;
+	font-size: 28px;
+	float: left;
+}
+.news {
+    text-transform: none;
+    vertical-align: top;
+    margin-top: 81px;}
+.news_title {
+    background-image: url(images/news-title-bg.gif);
+    background-repeat: no-repeat;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    text-transform: uppercase;}
+.news2 {
+    background-image: url(images/news-bg.gif);
+    background-repeat: repeat-y;
+    font-size: 11px;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;}
+.news2 p{
+    margin-top:2px;
+    margin-bottom: 1px;
+}
